@@ -5,11 +5,18 @@
 > **Бета.** Нашёл баг — открой [Issue](../../issues) и приложи файл из папки `logs`.
 
 ## ⬇️ Скачать
-**[TDSMacro_2026-11-20.zip](../../raw/main/download/TDSMacro_2026-11-20.zip)** (79 МБ)
+**[TDSMacro_2026-11-21.zip](../../raw/main/download/TDSMacro_2026-11-21.zip)** (79 МБ)
+
+## Что нового (2026-11-21)
+- **Меню переживает мини-обновления игры:** если кнопку немного сдвинули или перерисовали, макрос находит её по надписи и сам запоминает новое место.
 
 ## Что нового (2026-11-20)
 - **Поддержка обновления игры v2.20**: новое меню PLAY и новый инвентарь (автонадевание башен работает).
 - **В v2.20 сдвинули места появления на картах.** Записи, сделанные до обновления, макрос сам доводит до места записи. Если не получается — матч не играет, тикет скорости не тратит и пишет об этом в лог. Тогда просто перезапиши стратегию.
+- **Сам настраивает игру перед фармом:** ставит чувствительность камеры Roblox 0.2, проверяет настройки TDS (размер интерфейса и т.п.) и исправляет неправильные.
+- **Подстраивается под твои бинды:** читает клавиши слотов и абилок в настройках TDS — если они не стандартные, и запись, и игра работают с твоими.
+- Точнее ставит башни: учитывает, если поле на месте стоянки чуть приближено.
+- Новое, ещё в бете: подсказка клавиш при записи (F1 — все клавиши); запись сохраняется сама, если игра вылетела; «Дописать с волны…» — макрос доигрывает запись до нужной волны и зовёт тебя продолжить.
 
 ## Что умеет
 - **Запись стратегии** — играешь матч сам, макрос записывает постановку, апгрейды, продажу, абилки, скипы волн.
@@ -46,4 +53,6 @@
 
 **English:** TDS Macro records your Tower Defense Simulator strategy once and replays it to farm automatically (VIP server rejoin, Timescale tickets, auto-equip). Download the zip above, extract it, run `TDSMacro.exe`, read the in-app Guide (camera sensitivity 0.2). To record: join, pick mode and map, don't touch the camera, press F6, play, press F6 again. Requires Windows 10/11, WebView2 Runtime, Roblox fullscreen 1920×1080. Beta — report bugs in Issues with your `logs` folder.
 
-**New (2026-11-20):** works with game update v2.20 (new PLAY menu and inventory). Spawn points moved in v2.20 — old recordings walk to their recorded spot by themselves; if that fails, the macro skips the match without spending a Timescale ticket — re-record the strategy.
+**New (2026-11-21):** menu buttons survive small game updates — if a button moves or is redrawn, the macro finds it by its label and remembers the new spot.
+
+**New (2026-11-20):** works with game update v2.20 (new PLAY menu and inventory); sets Roblox camera sensitivity 0.2 and checks/fixes TDS settings before farming; adapts to your TDS keybinds; F1 key hints while recording, recording autosave on crash, "continue from wave N" (beta). Spawn points moved in v2.20 — old recordings walk to their recorded spot by themselves; if that fails, the macro skips the match without spending a Timescale ticket — re-record the strategy.
