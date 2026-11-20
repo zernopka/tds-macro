@@ -5,7 +5,7 @@
 > **Бета.** Нашёл баг — открой [Issue](../../issues) и приложи файл из папки `logs`.
 
 ## ⬇️ Скачать
-**[TDSMacro_2026-11-21.zip](../../raw/main/download/TDSMacro_2026-11-21.zip)** (79 МБ)
+**[TDSMacro_2026-11-21.zip](https://github.com/zernopka/tds-macro/releases/download/v2026-11-21/TDSMacro_2026-11-21.zip)** (79 МБ) · все версии — в [Releases](../../releases)
 
 ## Что нового (2026-11-21)
 - **Меню переживает мини-обновления игры:** если кнопку немного сдвинули или перерисовали, макрос находит её по надписи и сам запоминает новое место.
@@ -51,7 +51,7 @@
 
 ---
 
-**English:** TDS Macro records your Tower Defense Simulator strategy once and replays it to farm automatically (VIP server rejoin, Timescale tickets, auto-equip). Download the zip above, extract it, run `TDSMacro.exe`, read the in-app Guide (camera sensitivity 0.2). To record: join, pick mode and map, don't touch the camera, press F6, play, press F6 again. Requires Windows 10/11, WebView2 Runtime, Roblox fullscreen 1920×1080. Beta — report bugs in Issues with your `logs` folder.
+**English:** TDS Macro records your Tower Defense Simulator strategy once and replays it to farm automatically (VIP server rejoin, Timescale tickets, auto-equip). Download the zip above (or from Releases), extract it, run `TDSMacro.exe`, read the in-app Guide (camera sensitivity 0.2). To record: join, pick mode and map, don't touch the camera, press F6, play, press F6 again. Requires Windows 10/11, WebView2 Runtime, Roblox fullscreen 1920×1080. Beta — report bugs in Issues with your `logs` folder.
 
 **New (2026-11-21):** menu buttons survive small game updates — if a button moves or is redrawn, the macro finds it by its label and remembers the new spot.
 
