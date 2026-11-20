@@ -5,7 +5,11 @@
 > **Бета.** Нашёл баг — открой [Issue](../../issues) и приложи файл из папки `logs`.
 
 ## ⬇️ Скачать
-**[TDSMacro_2026-11-19.zip](../../raw/main/download/TDSMacro_2026-11-19.zip)** (78 МБ)
+**[TDSMacro_2026-11-20.zip](../../raw/main/download/TDSMacro_2026-11-20.zip)** (79 МБ)
+
+## Что нового (2026-11-20)
+- **Поддержка обновления игры v2.20**: новое меню PLAY и новый инвентарь (автонадевание башен работает).
+- **В v2.20 сдвинули места появления на картах.** Записи, сделанные до обновления, макрос сам доводит до места записи. Если не получается — матч не играет, тикет скорости не тратит и пишет об этом в лог. Тогда просто перезапиши стратегию.
 
 ## Что умеет
 - **Запись стратегии** — играешь матч сам, макрос записывает постановку, апгрейды, продажу, абилки, скипы волн.
@@ -41,3 +45,5 @@
 ---
 
 **English:** TDS Macro records your Tower Defense Simulator strategy once and replays it to farm automatically (VIP server rejoin, Timescale tickets, auto-equip). Download the zip above, extract it, run `TDSMacro.exe`, read the in-app Guide (camera sensitivity 0.2). To record: join, pick mode and map, don't touch the camera, press F6, play, press F6 again. Requires Windows 10/11, WebView2 Runtime, Roblox fullscreen 1920×1080. Beta — report bugs in Issues with your `logs` folder.
+
+**New (2026-11-20):** works with game update v2.20 (new PLAY menu and inventory). Spawn points moved in v2.20 — old recordings walk to their recorded spot by themselves; if that fails, the macro skips the match without spending a Timescale ticket — re-record the strategy.
